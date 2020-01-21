@@ -1,0 +1,30 @@
+.subir {
+    margin-top: -50px;
+}
+
+div.navbar {
+    /* background-color: aqua; */
+    height: 100vh;
+}
+div.contenedor {
+    width: 99.33%;
+    
+  }
+  
+  button.centrado {
+    width: 110px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  /* OTRA FORMA (flex):
+  div.contenedor {
+    width: 33.33%;
+    background-color: tomato;
+    display: flex;
+    justify-content: center
+  }
+  */
+  div.card-deck{
+      margin-block-start: 20px;
+  }

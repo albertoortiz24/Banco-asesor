@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>EICM</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link href="editorial.html" rel="import" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+  </head>
+  <body>
+    
+
+<div class="global">
+
+
+
+  <div class="regla_superior"><div class="polig"></div></div>
+  <header>
+    <div class="menu_bar">
+        <a href="#" class="bt-menu"><span><img src="img\icon_burger.png"></span></a>
+    </div>
+    <nav>
+      <h6>NOSOTROS</h6>
+      <a href="#nosotros">about</a>
+      <br>
+      <a href="#proyectos">proyectos</a>
+      <br>
+      <br>
+      <h6>CONTACTO</h6>
+      <a href="#escribenos">escribenos</a>
+    </nav>
+  </header>
+
+    <!--MAIN-->
+    <div class="main">
+
+      <!--HEADER-->
+      <div class="main_grid">
+
+        <div class="lateral">
+
+
+            <img src="img/logo.png" alt="" class="logo">
+
+
+
+          <div class="titulo_desciptivo">
+            <h6>NOSOTROS</h6>
+            <a href="#nosotros">about</a>
+            <br>
+            <a href="#proyectos">proyectos</a>
+            <br>
+            <br>
+            <h6>CONTACTO</h6>
+            <a href="#escribenos">escribenos</a>
+          </div>
+
+        </div>
+        <div class="grid">
+          <div class="a">
+              <a href="#" class="buscar">BUSCAR</a>
+          </div>
+
+          <!--IMAGEN GRANDE-->
+          <div class="b">
+            <img src="img/fondo.png" alt="Imagen de fondo" class="fondo">
+          </div>
+        </div>
+      </div>
+
+      <div class="main_grid" id="nosotros">
+        <div class="lateral_mini"></div>
+        <div class="central_mini"></div>
+      </div>
+      <!--modificacion 27/10/2019-->
+      <div class="main_grid" >
+
+          <div class="lateral_medio">
+            <div class="titulo_desciptivo_small">
+              <p>NO&tilde;</p>
+              <p>SO&tilde;</p>
+              <p>ROS&num;</p>
+            </div>
+          </div>
+
+        <div class="central_medio">
+          
+          
+          <div class="texto" >
+              <p class="texto-contact">Lorem ipsum dolor sit amet consectetur adipiscing elit leo metus,
+                eleifend libero nisi pharetra aliquam dui dictum interdum integer,
+                vel lobortis fringilla natoque accumsan duis facilisi lacus.</p>
+                
+                <h6 class="text-expand">Nombre de proyecto</h6>
+                <a class="bmw" href="#mostrar" onclick="myfunction1()">
+                <img class="btn-expand" src="img/icon_expand.png" alt="">
+              </a>
+            
+          </div>
+         
+
+        </div>
+      </div>
+      <!--div de prueba-->
+      <div class="hiden" id="hiden">
+        <!--div-->
+      <div class="main_grid" id="mostrar">
+        <div class="lateral_mini"></div>
+        <div class="central_mini"></div>
+      </div>
+
+      <!--Glosario-->
+      <div class="main_grid">
+
+          <div class="lateral_medio">
+
+          </div>
+
+        <!--AULATIVA-->
+        <div class="central_medio">
+
+              <img src="img/aulativa.png" alt="" class="imagen_banner">
+
+
+        </div>
+      </div>
+
+      <div class="main_grid">
+        <div class="lateral_mini"></div>
+        <div class="central_mini"></div>
+      </div>
+
+
+      <!--AULATIVA-->
+
+      <div class="main_grid">
+
+          <div class="lateral_medio">
+
+          </div>
+
+        <div class="central_medio">
+
+        <img src="img/glosario.png" alt="" class="imagen_banner" id="proyectos">
+
+        </div>
+      </div>
+
+      <div class="main_grid">
+        <div class="lateral_mini"></div>
+        <div class="central_mini"></div>
+      </div>
+
+
+      <!--Proyectos-->
+      <div class="main_grid">
+
+        <div class="lateral_grande">
+          <div class="titulo_desciptivo">
+              <a href="#">proyectos</a>
+          </div>
+        </div>
+
+        <div class="central_grande">
+
+
+    <!--////////////////////////////////////////AQUI VAN LOS PROYECTOS////////////////////////////////////////////////////-->
+        <div class="Row">
+          <div class="Column" id="cambiarimg">
+            <a href="editorial.html"><img src="img/1.png" id="image1" onclick="change1()"  alt=""></a>
+          </div>
+
+          <div class="Column">
+            <a href="editorialEx.html"><img src="img/2.png" id="image2" onclick="cambiar()"  alt=""></a>
+          </div>
+
+          <div class="Column">
+            <a href="editorialEi.html"><img src="img/3.png" id="image3" alt=""></a>
+          </div>
+          <div class="Column">
+            <a href="editorialpara.html"><img src="img/4.png" id="image4" alt=""></a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+
+      <!-- FOOTER -->
+      <div class="main_grid">
+        <div class="lateral_footer"></div>
+
+        <div class="central_footer">
+
+          <footer id="escribenos">
+            <form class="formulario" action="send2.php" method="post">
+              <div class="grid_form">
+                <div class="">
+                    <input type="text" name="nombre" value="" placeholder="Nombre">
+                    <input type="email" name="email" value="" placeholder="Correo">
+                    <input type="text" name="mensaje" value="" placeholder="Nombre del proyecto">
+                </div>
+                <div class="">
+                    <textarea name="mensaje" placeholder="Descripcion del proyecto" class="descripcion"></textarea>
+                </div>
+              </div>
+              <input type="submit" name="" value="Enviar" class="boton_enviar">
+            </form>
+
+            <br>
+          </footer>
+        </div>
+      </div>
+    </div>
+    </div>
+  <!--div de prieba-->
+  </div>
+  <!--fff-->
+    <div class="creditos">
+
+    </div>
+    <script type="text/javascript" src="assets/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="assets/js/menu.js"></script>
+    <script type="text/javascript" src="assets/js/cambio.js"></script>
+  </body>
+
+
+</html>
